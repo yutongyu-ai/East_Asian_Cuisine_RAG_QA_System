@@ -1,0 +1,47 @@
+services:
+
+  backend:
+    build: ./services/backend
+    container_name: rag-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+      - chroma
+    volumes:
+      - ./volumes/chroma:/chroma
+    restart: always
+
+  frontend:
+    build: ./services/frontend
+    container_name: rag-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: always
+
+  postgres:
+    image: postgres:15
+    container_name: rag-postgres
+    environment:
+      POSTGRES_DB: rag_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+    volumes:
+      - ./volumes/postgres:/var/lib/postgresql/data
+      - ./infrastructure/postgres:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
+    restart: always
+
+  chroma:
+    image: chromadb/chroma
+    container_name: rag-chroma
+    volumes:
+      - ./volumes/chroma:/chroma
+    ports:
+      - "8001:8000"
+    restart: always

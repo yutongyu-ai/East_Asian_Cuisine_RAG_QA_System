@@ -1,0 +1,9 @@
+.env
+.idea/
+volumes/
+services/backend/volumes/
+node_modules/
+text_utils.py
+
+__pycache__/
+*.pyc

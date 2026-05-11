@@ -1,0 +1,807 @@
+[
+  {
+    "id": "001",
+    "question": "According to the overview of East Asian cuisine, what are the common ingredients used in the preparation of dishes across this region?",
+    "gold_answer": "East Asian cuisine has evolved with the common usage of oils, fats, and sauces in the preparation of dishes.",
+    "gold_parent_doc_id": [
+      "doc_0_east_asian_overview"
+    ],
+    "gold_chunk_ids": [
+      "chunk_1"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "002",
+    "question": "What factors contribute to the distinctiveness of various Chinese regional cuisines?",
+    "gold_answer": "The distinctiveness is due to factors such as available resources, climate, geography, history, cooking techniques, and lifestyle.",
+    "gold_parent_doc_id": [
+      "doc_1_chinese_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_98"
+    ],
+    "question_type": "conceptual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "003",
+    "question": "Which specific region is Anhui cuisine derived from, and what is its alternative name?",
+    "gold_answer": "Anhui cuisine, alternatively referred to as Hui cuisine, is derived from the native cooking styles of the Huangshan region in China.",
+    "gold_parent_doc_id": [
+      "doc_2_anhui"
+    ],
+    "gold_chunk_ids": [
+      "chunk_211"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "004",
+    "question": "What is the primary focus of Hakka cuisine in terms of food quality, and what are some hallmark 'texturized' contributions to their palate?",
+    "gold_answer": "Hakka cuisine concentrates on the texture of food. Hallmark contributions include stewed, braised, and roast meats, as well as preserved meats.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2227"
+    ],
+    "question_type": "conceptual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "005",
+    "question": "Describe the unique sourness found in Guizhou cuisine. How does it differ from Northern Chinese cuisines in terms of salt usage?",
+    "gold_answer": "The sourness in Guizhou cuisine comes from the local tradition of fermenting vegetables or grains rather than vinegar. Unlike northern cuisines, it lacks an emphasis on salty tastes.",
+    "gold_parent_doc_id": [
+      "doc_59_guizhou_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2195",
+      "chunk_2194"
+    ],
+    "question_type": "comparative",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "006",
+    "question": "What is the core technique to achieve crispiness in Tempura batter according to the recipe?",
+    "gold_answer": "The core technique is to not overmix the batter; leaving a few lumps actually improves the result and adds crispiness.",
+    "gold_parent_doc_id": [
+      "wkb_recipe_66_tempura"
+    ],
+    "gold_chunk_ids": [
+      "chunk_7196"
+    ],
+    "question_type": "procedural",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "007",
+    "question": "In Chiuchow cuisine, what is 'Tieguanyin' and how is it traditionally served?",
+    "gold_answer": "Tieguanyin is a very strong oolong tea served in tiny cups before and after the meal as 'gongfu tea', featuring a bittersweet taste known as 'gam gam'.",
+    "gold_parent_doc_id": [
+      "doc_57_chaozhou_cuisine",
+      "doc_58_chiuchow_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2049",
+      "chunk_2123"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "008",
+    "question": "What are the necessary ingredients to prepare 'Taro Fish' as per the vegetarian recipe provided?",
+    "gold_answer": "The ingredients are: 1 small taro, 2 sheets nori, 1 tsp preserved black beans, 2-inch piece of ginger, 1 green pepper, 2 spring onions, 1 tsp vegetable stock powder, 2 tbsp Shaoxing rice wine, and vegetable oil.",
+    "gold_parent_doc_id": [
+      "wkb_recipe_34_taro_fish"
+    ],
+    "gold_chunk_ids": [
+      "chunk_6945"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "009",
+    "question": "Explain the significance of 'Lei Cha' in Hakka-Hopo families and its role in family relationships.",
+    "gold_answer": "Lei Cha is a unique vegan dish comprising vegetables and beans. Preparing the eight combinations of the dish requires family cooperation, which helps foster relationships between members.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2233",
+      "chunk_2234"
+    ],
+    "question_type": "conceptual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "010",
+    "question": "What temperature should the oil reach for deep-frying Tempura, and why is ice-cold water used in the batter?",
+    "gold_answer": "The oil should be 340–350°F (~171–176°C). Ice-cold water is used because warmer water produces a sticky batter and results in oily tempura.",
+    "gold_parent_doc_id": [
+      "wkb_recipe_66_tempura"
+    ],
+    "gold_chunk_ids": [
+      "chunk_7196"
+    ],
+    "question_type": "procedural",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "011",
+    "question": "What is the literal translation of 'Char Siu', and which Chinese province does it originate from?",
+    "gold_answer": "Char siu literally means 'fork roasted' and originates from Guangdong province.",
+    "gold_parent_doc_id": [
+      "doc_31_char_siu"
+    ],
+    "gold_chunk_ids": [
+      "chunk_1014"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "012",
+    "question": "What are 'Abacus seeds' in Hakka cuisine made of, and what is their texture after cooking?",
+    "gold_answer": "They are made of dough formed from tapioca and yam. When cooked, they are soft on the outside and chewy on the inside.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2238"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "013",
+    "question": "Describe the preparation of 'Dongjiang salt-baked chicken' in modern restaurants compared to its traditional method.",
+    "gold_answer": "Originally it was baked in a heap of hot salt. Modern restaurants often cook it in brine, cover it with a salty mixture before steaming, or bake it in an oven.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2241"
+    ],
+    "question_type": "procedural",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "014",
+    "question": "What is 'Houttuynia' (折耳根) and how is it used in Guizhou cuisine?",
+    "gold_answer": "Houttuynia is a unique ingredient used in dipping sauces and dishes like 'guai-lu fried rice' or stir-fried with Chinese bacon. It has a distinct taste loved by locals but often not accepted by others.",
+    "gold_parent_doc_id": [
+      "doc_59_guizhou_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2202",
+      "chunk_2206"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "015",
+    "question": "According to the 'Cream Cheese Wontons' recipe, what is the specific recommendation to prevent the triangles from bursting while frying?",
+    "gold_answer": "The recipe recommends sealing the edges tightly but leaving small gaps at the corners so the triangles won't expand so much that they burst.",
+    "gold_parent_doc_id": [
+      "wkb_recipe_2_cream_cheese_wontons"
+    ],
+    "gold_chunk_ids": [
+      "chunk_6629"
+    ],
+    "question_type": "procedural",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "016",
+    "question": "What distinguishes Teochew 'mue' (congee) from its Cantonese counterpart?",
+    "gold_answer": "Teochew mue is very watery with rice sitting loosely at the bottom, while the Cantonese version is a thin gruel.",
+    "gold_parent_doc_id": [
+      "doc_57_chaozhou_cuisine",
+      "doc_58_chiuchow_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2048",
+      "chunk_2123"
+    ],
+    "question_type": "comparative",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "017",
+    "question": "What are the common dipping sauce ingredients for Guizhou people, and what is the 'crucial' element in their daily dining?",
+    "gold_answer": "Spicy dipping sauce (蘸水) is crucial. It is made by mixing chili pepper, garlic, ginger, green scallion, sesame oil, or soy sauce.",
+    "gold_parent_doc_id": [
+      "doc_59_guizhou_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2201"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "018",
+    "question": "In the context of Hakka cuisine in South Asia, why is Indian-Chinese food often referred to as 'Hakka'?",
+    "gold_answer": "It is called 'Hakka' because many owners of these restaurants in India and Pakistan are of Hakka origin, even though the food is actually Indian/Pakistani Chinese cuisine.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2251"
+    ],
+    "question_type": "conceptual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "019",
+    "question": "Explain the difference between 'Hu-la', 'Ciba-la', and 'Zao-la' in Guizhou cuisine.",
+    "gold_answer": "Hu-la is heat-dried crushed chili; Ciba-la is uncooked mashed chili paste or oil-simmered sauce; Zao-la is minced chili preserved with ginger and garlic.",
+    "gold_parent_doc_id": [
+      "doc_59_guizhou_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2203"
+    ],
+    "question_type": "factual",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "020",
+    "question": "What etiquette rules regarding liquids and noise should be followed during a Teochew 'jiat dot' feast?",
+    "gold_answer": "One must not let liquids spill, not make noises while eating (smacking sounds), and not gnaw bones loudly.",
+    "gold_parent_doc_id": [
+      "doc_57_chaozhou_cuisine",
+      "doc_58_chiuchow_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2058",
+      "chunk_2132"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "021",
+    "question": "How should shrimp be prepared for Tempura to prevent them from curling during frying?",
+    "gold_answer": "One should score them crosswise on the underside or skewer them before cooking (removing skewers before serving).",
+    "gold_parent_doc_id": [
+      "wkb_recipe_66_tempura"
+    ],
+    "gold_chunk_ids": [
+      "chunk_7197"
+    ],
+    "question_type": "procedural",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "022",
+    "question": "What is 'siang teng' in Teochew cooking and how is it traditionally maintained?",
+    "gold_answer": "It is a 'superior broth' that remains on the stove and is continuously replenished (a perpetual stew), sometimes for decades.",
+    "gold_parent_doc_id": [
+      "doc_57_chaozhou_cuisine",
+      "doc_58_chiuchow_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2053",
+      "chunk_2127"
+    ],
+    "question_type": "factual",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "023",
+    "question": "What ingredients are used to join nori sheets together when making 'Taro Fish'?",
+    "gold_answer": "One sheet is moistened with water to join them together.",
+    "gold_parent_doc_id": [
+      "wkb_recipe_34_taro_fish"
+    ],
+    "gold_chunk_ids": [
+      "chunk_6946"
+    ],
+    "question_type": "procedural",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "024",
+    "question": "What is the primary ingredient of 'Yong tau foo' and what are its traditional fillings?",
+    "gold_answer": "The primary ingredient is tofu cubes. Traditional fillings include minced meat (usually pork), salted fish, and herbs.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2247"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "025",
+    "question": "According to the Guizhou recipe, what are the components of 'sour soup broth'?",
+    "gold_answer": "The broth is normally made from the fermentation of rice, rice wine, wild tomatoes, red pepper, garlic, and ginger.",
+    "gold_parent_doc_id": [
+      "doc_59_guizhou_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2200"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "026",
+    "question": "What is the 'sweet version' of Hakka tea fruit buns filled with?",
+    "gold_answer": "The sweet version is filled with sweetened black-eyed pea paste or peanuts.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2236"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "027",
+    "question": "What is 'shacha sauce' made of, and which cuisines is it commonly associated with?",
+    "gold_answer": "It is made from soybean oil, garlic, shallots, chilies, brill fish, and dried shrimp. It is associated with Fujian, Taiwanese, and Teochew cuisines.",
+    "gold_parent_doc_id": [
+      "doc_57_chaozhou_cuisine",
+      "doc_58_chiuchow_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2050",
+      "chunk_2124"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "028",
+    "question": "In the Cream Cheese Wonton recipe, how much cream cheese should be used for smaller wonton wrappers versus larger egg roll wrappers?",
+    "gold_answer": "Use about 1 tsp for smaller wonton wrappers and 2 tsp for larger egg roll wrappers.",
+    "gold_parent_doc_id": [
+      "wkb_recipe_2_cream_cheese_wontons"
+    ],
+    "gold_chunk_ids": [
+      "chunk_6628"
+    ],
+    "question_type": "procedural",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "029",
+    "question": "Which specific Japanese city is mentioned as a place where Hakka restaurants used to be located in Thailand?",
+    "gold_answer": "The text does not mention a Japanese city; it mentions Hakka restaurants in Bangkok, Thailand, specifically in areas like Suan Mali and Talad Phlu.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2255"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "030",
+    "question": "What is 'cui-shao' in Guizhou cuisine and how is it typically used?",
+    "gold_answer": "Cui-shao is deep-fried diced pork marinated with soy sauce, vinegar, and sugar/sweet wine. It can be added to siwawa, changwang noodles, or eaten as a snack.",
+    "gold_parent_doc_id": [
+      "doc_59_guizhou_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2208"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "031",
+    "question": "Describe the process of making 'zi ba' (Steamed sticky rice pastry) in Hakka cuisine.",
+    "gold_answer": "Glutinous rice is ground into paste, steamed, stirred with a bamboo stick and pounded with a pestle for stickiness, then shaped and coated with sweet peanut powder.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2250"
+    ],
+    "question_type": "procedural",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "032",
+    "question": "Identify the 'Four Famous Dishes' of Hainan province as described in the text, and specify which one is traditionally paired with 'chicken rice'.",
+    "gold_answer": "The four famous dishes of Hainan are Wenchang chicken, Jiaji duck, Dongshan mutton, and Hele crab. Among them, Wenchang chicken is traditionally served with 'chicken rice'.",
+    "gold_parent_doc_id": [
+      "doc_60_hainan_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2211",
+      "chunk_2212",
+      "chunk_2213",
+      "chunk_2214"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "033",
+    "question": "In Guizhou cuisine, what are the steps to make pickled vegetables (yancai)?",
+    "gold_answer": "Fresh vegetables are cleaned, dried without sunlight, salted, and sealed in containers for four or five days for fermentation.",
+    "gold_parent_doc_id": [
+      "doc_59_guizhou_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2198"
+    ],
+    "question_type": "procedural",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "034",
+    "question": "Why did 'jiat dot' feasts stop serving shark fin and bird's nest soup?",
+    "gold_answer": "They were stopped due to legal and environmental considerations.",
+    "gold_parent_doc_id": [
+      "doc_57_chaozhou_cuisine",
+      "doc_58_chiuchow_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2055",
+      "chunk_2129"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "035",
+    "question": "What oil is recommended as working best for Cream Cheese Wontons?",
+    "gold_answer": "Vegetable oil or peanut oil works best.",
+    "gold_parent_doc_id": [
+      "wkb_recipe_2_cream_cheese_wontons"
+    ],
+    "gold_chunk_ids": [
+      "chunk_6631"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "036",
+    "question": "How is 'fried pork with fermented tofu' prepared for Lunar New Year in Hakka traditions?",
+    "gold_answer": "Marinated pork is deep fried to remove moisture (for preservation), then stewed with water and wood's ear fungus.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2243"
+    ],
+    "question_type": "procedural",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "037",
+    "question": "What is 'da laang' and when is it typically consumed?",
+    "gold_answer": "It refers to a late-night meal (meh siao) in Teochew cuisine, enjoyed close to midnight or at roadside stalls.",
+    "gold_parent_doc_id": [
+      "doc_57_chaozhou_cuisine",
+      "doc_58_chiuchow_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2060",
+      "chunk_2134"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "038",
+    "question": "In the Taro Fish recipe, how should the nori be cut to resemble a fish?",
+    "gold_answer": "The nori should be cut at one end to resemble fish fins.",
+    "gold_parent_doc_id": [
+      "wkb_recipe_34_taro_fish"
+    ],
+    "gold_chunk_ids": [
+      "chunk_6947"
+    ],
+    "question_type": "procedural",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "039",
+    "question": "What is the meaning of 'son panˇ ziiˋ' and what are the main ingredients of its dough?",
+    "gold_answer": "It means 'Abacus seeds'. The dough is made from tapioca and yam.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2238"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "040",
+    "question": "What is the 'ancient local saying' in Guizhou regarding their sour dishes?",
+    "gold_answer": "The saying is: 'Without eating a sour dish for three days, people will stagger with weak legs.'",
+    "gold_parent_doc_id": [
+      "doc_59_guizhou_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2193"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "041",
+    "question": "Describe the 'Duck stuffed with glutinous rice' dish from Hakka cuisine.",
+    "gold_answer": "Bones are removed from a whole duck while maintaining its bird shape, and the cavities are filled with seasoned sticky rice.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2242"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "042",
+    "question": "What are the components used to prepare 'Lei Cha' powder according to the Hakka guide?",
+    "gold_answer": "It is made of tea leaves (usually green tea), peanuts, mint leaves, sesame seeds, mung beans, and other herbs.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2246"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "043",
+    "question": "According to the overview, what are the four most influential styles of Chinese cuisine?",
+    "gold_answer": "The four most influential are Sichuan, Shandong, Jiangsu, and Guangdong cuisines.",
+    "gold_parent_doc_id": [
+      "doc_0_east_asian_overview"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "044",
+    "question": "How is 'Taro Fish' served according to the procedure?",
+    "gold_answer": "Cuts are made halfway through the fish at 1-inch intervals, sauce is poured over it, and it is served on a platter.",
+    "gold_parent_doc_id": [
+      "wkb_recipe_34_taro_fish"
+    ],
+    "gold_chunk_ids": [
+      "chunk_6946"
+    ],
+    "question_type": "procedural",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "045",
+    "question": "What was the 'first Hong Kong Inventory of Intangible Cultural Heritage' item listed in 2014 related to cuisine?",
+    "gold_answer": "Hakka cuisine was listed in 2014.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2226"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "046",
+    "question": "What is 'Maotai' and where is it produced?",
+    "gold_answer": "Maotai is one of the most famous and expensive Chinese liquors (baijiu), produced in Guizhou.",
+    "gold_parent_doc_id": [
+      "doc_59_guizhou_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2197"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "047",
+    "question": "What are the two items traditionally used to drain Cream Cheese Wontons after frying?",
+    "gold_answer": "They are set on paper towels to drain.",
+    "gold_parent_doc_id": [
+      "wkb_recipe_2_cream_cheese_wontons"
+    ],
+    "gold_chunk_ids": [
+      "chunk_6630"
+    ],
+    "question_type": "procedural",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "048",
+    "question": "Describe the difference between the salty and sweet versions of Hakka steamed buns (tea fruit).",
+    "gold_answer": "The sweet version is filled with black-eyed pea paste or peanuts; the salty version contains preserved vegetables or radishes.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2236"
+    ],
+    "question_type": "comparative",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "049",
+    "question": "What are the main ingredients for a clear 'Beef meatball soup' in Hakka cuisine?",
+    "gold_answer": "A clear broth, lettuce, and beef meatballs.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2240"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "050",
+    "question": "In Guizhou cuisine, what is 'Siwawa'?",
+    "gold_answer": "Siwawa is a Guiyang-style spring roll.",
+    "gold_parent_doc_id": [
+      "doc_59_guizhou_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2207"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "051",
+    "question": "What unique skill is required of Teochew chefs regarding banquet decorations?",
+    "gold_answer": "Teochew chefs take pride in their vegetable carving skills, used as garnishes on cold dishes and banquet tables.",
+    "gold_parent_doc_id": [
+      "doc_57_chaozhou_cuisine",
+      "doc_58_chiuchow_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2059",
+      "chunk_2133"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "052",
+    "question": "According to the Hakka cuisine notes, what refers to 'fried fish maw slices and okra to chili peppers'?",
+    "gold_answer": "These are 'oddments' used to replace tofu in modern versions of Yong tau foo sold in food stalls.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2248",
+      "chunk_2249"
+    ],
+    "question_type": "factual",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "053",
+    "question": "How do guests prepare for a Teochew 'jiat dot' feast in terms of appearance?",
+    "gold_answer": "They must be neatly dressed with clean hats and footwear. Men used to wear long gowns and felt hats; women applied light makeup and wore ruyi hairpins.",
+    "gold_parent_doc_id": [
+      "doc_57_chaozhou_cuisine",
+      "doc_58_chiuchow_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2056",
+      "chunk_2130"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "054",
+    "question": "What is 'Lao Gan Ma' and where did it originate?",
+    "gold_answer": "Lao Gan Ma is a renowned chili sauce brand that originated in Guizhou.",
+    "gold_parent_doc_id": [
+      "doc_59_guizhou_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2204"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "055",
+    "question": "What is the primary protein source for the 'Braised pork trotter' in Hakka cuisine and what spices are used?",
+    "gold_answer": "Pig's feet (trotters) are the protein. Spices include star anise, clove, ginger, garlic, and scallions.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2240"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "056",
+    "question": "In the Cream Cheese Wonton procedure, what should you do while the oil is heating?",
+    "gold_answer": "You should lay out as many wrappers as you plan to use and have a small bowl of water nearby to wet your fingers.",
+    "gold_parent_doc_id": [
+      "wkb_recipe_2_cream_cheese_wontons"
+    ],
+    "gold_chunk_ids": [
+      "chunk_6628"
+    ],
+    "question_type": "procedural",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "057",
+    "question": "What is 'changwang noodles' in Guizhou cuisine made of?",
+    "gold_answer": "It consists of egg noodles with chili oil, pig's intestine, and blood.",
+    "gold_parent_doc_id": [
+      "doc_59_guizhou_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2208"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "058",
+    "question": "How is 'lei cha' served in Malaysian multicultural contexts?",
+    "gold_answer": "It is a vegetable-based rice tea dish that is gaining momentum and served as a drink or dietary brew with rice and side dishes.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2233"
+    ],
+    "question_type": "factual",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "059",
+    "question": "Explain the step of frying the taro fish mixture after it's rolled in nori.",
+    "gold_answer": "The provided text for Taro Fish does not actually mention a frying step; it mentions stir-frying the vegetables and pouring the sauce over the steamed taro fish.",
+    "gold_parent_doc_id": [
+      "wkb_recipe_34_taro_fish"
+    ],
+    "gold_chunk_ids": [
+      "chunk_6947"
+    ],
+    "question_type": "procedural",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "060",
+    "question": "What are 'Poon Choi' and 'Salt-baked chicken' in the context of Hong Kong Hakka cooking?",
+    "gold_answer": "They are signature dishes of modern Hakka cooking in Hong Kong.",
+    "gold_parent_doc_id": [
+      "doc_61_hakka_cuisine"
+    ],
+    "gold_chunk_ids": [
+      "chunk_2231"
+    ],
+    "question_type": "factual",
+    "difficulty": "Easy"
+  }
+]
