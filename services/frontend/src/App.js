@@ -12,7 +12,6 @@ function App() {
     const userMsg = { role: "user", content: question };
     const aiMsg = { role: "ai", content: "" };
 
-    // ⚠️ 关键：先只加一次消息
     setMessages(prev => [...prev, userMsg, aiMsg]);
 
     setInput("");
@@ -45,17 +44,15 @@ function App() {
       const chunk = decoder.decode(value, { stream: true });
       buffer += chunk;
 
-      // 按 SSE 分割
       const parts = buffer.split("\n\n");
 
-      buffer = parts.pop(); // 剩余不完整部分
+      buffer = parts.pop();
 
       for (let part of parts) {
         const data = part.replace("data: ", "").trim();
 
         if (!data || data === "[DONE]") continue;
 
-        // ✅ 正确更新最后一条 AI message（不可直接 mutate）
         setMessages(prev => {
           const updated = [...prev];
           const last = { ...updated[updated.length - 1] };

@@ -1,10 +1,10 @@
-# 🧠 RAG-Based Question Answering System
+# 🧠 East Asian Cuisine RAG QA System
 
 ---
 
 ## 📖 Overview
 
-This project implements a **Retrieval-Augmented Generation (RAG)** system for question answering.
+This project implements a **Retrieval-Augmented Generation (RAG)** system for East Asian Cuisine question answering.
 
 It enhances large language models by integrating **external knowledge retrieval**, improving factual accuracy and reducing hallucinations.
 

@@ -34,7 +34,6 @@ def stream_generator(rag: RagService, question: str):
                 full_answer += chunk
                 yield f"data: {chunk}\n\n" #
 
-        # 👉 最后统一写入 memory（必须等完整回答）
         rag.memory.history.add_user_message(question)
         rag.memory.history.add_ai_message(full_answer)
         yield "data: [DONE]\n\n"
@@ -45,7 +44,6 @@ def stream_generator(rag: RagService, question: str):
 
 @app.post("/chat")
 def chat(req: ChatRequest):
-    print("🔥 /chat endpoint hit")
     rag = get_rag(req.session_id)
 
     return StreamingResponse(

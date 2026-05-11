@@ -8,7 +8,7 @@ class MemoryService:
 
         self.connection_string = os.getenv(
             "POSTGRES_URL",
-            "postgresql://postgres:123456@localhost:5432/rag_db"
+            "postgresql://postgres:YOUR_PASSWORD@localhost:5432/rag_db"
         )
 
         self.history = PostgresChatMessageHistory(

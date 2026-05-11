@@ -8,7 +8,6 @@ from langchain_core.outputs import ChatGeneration, ChatResult
 
 class QwenLLM(BaseChatModel):
 
-    # ✅ 正确声明私有属性
     _client: OpenAI = PrivateAttr()
 
     @property
@@ -18,7 +17,6 @@ class QwenLLM(BaseChatModel):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
-        # ❗ 必须用 object.__setattr__（关键点）
         object.__setattr__(
             self,
             "_client",

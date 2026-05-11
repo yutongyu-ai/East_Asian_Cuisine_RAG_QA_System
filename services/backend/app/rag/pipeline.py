@@ -20,7 +20,6 @@ def print_prompt(prompt):
     return prompt
 
 
-# 初始化
 class RagService():
     def __init__(self, session_id: str):
         self.retrieve_service = RetrieveService()
@@ -39,8 +38,6 @@ class RagService():
         #     model="gpt-4o-mini",
         #     temperature=0
         # )
-        print("🔑 API KEY:", os.getenv("DASHSCOPE_API_KEY"))
-        print("🤖 model test:", self.chat_model.invoke("hello"))
 
         self.chain = self.__get_chain()
 
